@@ -1,3 +1,3 @@
 # allure
 Allure dashboard
-allure open ./allure/dashboard
+allure open .
