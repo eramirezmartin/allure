@@ -1,0 +1,229 @@
+{
+  "uid" : "a6b67eef9fd6e12a",
+  "name" : "Chrome Successfully Search By Many People with 1 room -- @1.1 ",
+  "historyId" : "507468ad44303c7fa346d59ec1cdfa58",
+  "time" : {
+    "start" : 1589362525203,
+    "stop" : 1589362534082,
+    "duration" : 8879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362526523,
+        "stop" : 1589362529709,
+        "duration" : 3186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enters \"Ibiza\" as destination",
+      "time" : {
+        "start" : 1589362529709,
+        "stop" : 1589362531194,
+        "duration" : 1485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters dates for booking",
+      "time" : {
+        "start" : 1589362531194,
+        "stop" : 1589362531577,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362531578,
+        "stop" : 1589362532129,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user clicks Search",
+      "time" : {
+        "start" : 1589362532129,
+        "stop" : 1589362533487,
+        "duration" : 1358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then fast_booking is filled correctly",
+      "time" : {
+        "start" : 1589362533488,
+        "stop" : 1589362533976,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo FastBooking"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "adult_1",
+    "value" : "5"
+  }, {
+    "name" : "destination",
+    "value" : "Ibiza"
+  }, {
+    "name" : "kids_1",
+    "value" : "7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "8bf927ad962f294b",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8bf927ad962f294b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360458288,
+          "stop" : 1589360465135,
+          "duration" : 6847
+        }
+      }, {
+        "uid" : "d4a0f3c9d085ac3",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/d4a0f3c9d085ac3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360185538,
+          "stop" : 1589360190901,
+          "duration" : 5363
+        }
+      }, {
+        "uid" : "a0df24da20de0952",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a0df24da20de0952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359774979,
+          "stop" : 1589359782415,
+          "duration" : 7436
+        }
+      }, {
+        "uid" : "16b764bf35aa27bb",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/16b764bf35aa27bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359429846,
+          "stop" : 1589359436381,
+          "duration" : 6535
+        }
+      }, {
+        "uid" : "1ce818e0f150884e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358594696,
+          "stop" : 1589358602134,
+          "duration" : 7438
+        }
+      }, {
+        "uid" : "cf616cd52da67587",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357804314,
+          "stop" : 1589357810845,
+          "duration" : 6531
+        }
+      }, {
+        "uid" : "bb5b371d07faa51f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357549584,
+          "stop" : 1589357556564,
+          "duration" : 6980
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "a6b67eef9fd6e12a.json",
+  "parameterValues" : [ "5", "Ibiza", "7" ]
+}

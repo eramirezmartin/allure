@@ -1,0 +1,190 @@
+{
+  "uid" : "12131c0c5c28f407",
+  "name" : "Chrome Successfully Search by Destination",
+  "historyId" : "7f10152d0165e7062ffd52481b1253a9",
+  "time" : {
+    "start" : 1589362467050,
+    "stop" : 1589362483327,
+    "duration" : 16277
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362468531,
+        "stop" : 1589362469829,
+        "duration" : 1298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enters \"Lanzarote\" as destination",
+      "time" : {
+        "start" : 1589362469829,
+        "stop" : 1589362471077,
+        "duration" : 1248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user clicks Search",
+      "time" : {
+        "start" : 1589362471077,
+        "stop" : 1589362471190,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the user has results",
+      "time" : {
+        "start" : 1589362471190,
+        "stop" : 1589362483249,
+        "duration" : 12059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo FastBooking"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "59b8f722c477500b",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/59b8f722c477500b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360405038,
+          "stop" : 1589360421325,
+          "duration" : 16287
+        }
+      }, {
+        "uid" : "29efaf7a3a498b50",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/29efaf7a3a498b50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360128833,
+          "stop" : 1589360144808,
+          "duration" : 15975
+        }
+      }, {
+        "uid" : "b98064bc219a45a3",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b98064bc219a45a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359717353,
+          "stop" : 1589359733056,
+          "duration" : 15703
+        }
+      }, {
+        "uid" : "888c72136d162ac8",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/888c72136d162ac8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359374225,
+          "stop" : 1589359390295,
+          "duration" : 16070
+        }
+      }, {
+        "uid" : "12fe51545a2270f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358535306,
+          "stop" : 1589358552623,
+          "duration" : 17317
+        }
+      }, {
+        "uid" : "2003ae74c6c96bd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357751731,
+          "stop" : 1589357766642,
+          "duration" : 14911
+        }
+      }, {
+        "uid" : "36dba5c4d1054c1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357494179,
+          "stop" : 1589357509637,
+          "duration" : 15458
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "12131c0c5c28f407.json",
+  "parameterValues" : [ ]
+}

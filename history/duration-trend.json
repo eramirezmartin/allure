@@ -1,0 +1,48 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 148576
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 137238
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 137884
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 143922
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://example.org/build#13/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "duration" : 141431
+  }
+}, {
+  "data" : {
+    "duration" : 157037
+  }
+}, {
+  "data" : {
+    "duration" : 132542
+  }
+}, {
+  "data" : {
+    "duration" : 134227
+  }
+} ]

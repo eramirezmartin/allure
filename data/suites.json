@@ -1,0 +1,213 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Chrome Successfully Search by Destination",
+    "uid" : "12131c0c5c28f407",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362467050,
+      "stop" : 1589362483327,
+      "duration" : 16277
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Chrome Successfully Search by 1 room",
+    "uid" : "c5c067635c582b14",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362483328,
+      "stop" : 1589362493167,
+      "duration" : 9839
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Chrome Successfully Search by 5 rooms -- @1.1 ",
+    "uid" : "7c6ed1aab4172afc",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362493167,
+      "stop" : 1589362500400,
+      "duration" : 7233
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "5", "5", "5", "5", "7", "7", "7", "7", "7" ]
+  }, {
+    "name" : "Chrome Successfully Search by 5 rooms -- @1.2 ",
+    "uid" : "ab65f0d66ad0b9ac",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362500401,
+      "stop" : 1589362507376,
+      "duration" : 6975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "0", "1", "2", "-1", "-1", "0", "0", "1", "5", "-1" ]
+  }, {
+    "name" : "Chrome Successfully Search by 5 rooms -- @2.1 ",
+    "uid" : "b843c7f347319b40",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362507377,
+      "stop" : 1589362514268,
+      "duration" : 6891
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "5", "5", "11", "18", "7", "7", "7", "10", "19" ]
+  }, {
+    "name" : "Chrome Successfully Search by 10 rooms -- @1.1 ",
+    "uid" : "4bf532d8f06da4d8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362514269,
+      "stop" : 1589362525202,
+      "duration" : 10933
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "7", "5", "5", "5", "5", "5", "7", "7", "7", "7", "7", "7", "7", "7", "7", "7", "5", "5", "7" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.1 ",
+    "uid" : "a6b67eef9fd6e12a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362525203,
+      "stop" : 1589362534082,
+      "duration" : 8879
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "Ibiza", "7" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.2 ",
+    "uid" : "ebcb2d9e238e9ee8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362534083,
+      "stop" : 1589362544323,
+      "duration" : 10240
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "ibiza", "10" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.3 ",
+    "uid" : "ed65d18bf566eff6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362544325,
+      "stop" : 1589362552426,
+      "duration" : 8101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "ibiz", "15" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.4 ",
+    "uid" : "a11ac3b40b68e1b5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362552427,
+      "stop" : 1589362560237,
+      "duration" : 7810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "Lanzarote", "-1" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.5 ",
+    "uid" : "eff52cc6dbc00171",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362560238,
+      "stop" : 1589362566027,
+      "duration" : 5789
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "0", "Lanzarote", "1" ]
+  }, {
+    "name" : "Chrome Successfully Search By Many People with 1 room -- @1.6 ",
+    "uid" : "9f5ddeefd35d1336",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362566027,
+      "stop" : 1589362572532,
+      "duration" : 6505
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "-2", "Lanzarote", "-1" ]
+  }, {
+    "name" : "Chrome Sucessfully Search by Destination",
+    "uid" : "3e15826180b0f4a7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362572534,
+      "stop" : 1589362589437,
+      "duration" : 16903
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Chrome successful tom login -- @1.1 ",
+    "uid" : "d9eadc4179348580",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362589439,
+      "stop" : 1589362598373,
+      "duration" : 8934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "ok_email", "ok_passws" ]
+  }, {
+    "name" : "Chrome unsuccessful tom login -- @1.1 ",
+    "uid" : "4968256b02cd358e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1589362598374,
+      "stop" : 1589362606617,
+      "duration" : 8243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "QA_WRONG", "QA_WRONG" ]
+  }, {
+    "name" : "Chrome Successfully Search by Destination",
+    "uid" : "279e93f47ab2f95b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1589362606618,
+      "stop" : 1589362615626,
+      "duration" : 9008
+    },
+    "flaky" : true,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,310 @@
+{
+  "uid" : "7c6ed1aab4172afc",
+  "name" : "Chrome Successfully Search by 5 rooms -- @1.1 ",
+  "historyId" : "f6c4d6aa4e180bf83a2f3e8d2d4768f5",
+  "time" : {
+    "start" : 1589362493167,
+    "stop" : 1589362500400,
+    "duration" : 7233
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362494424,
+        "stop" : 1589362496822,
+        "duration" : 2398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enters \"Ibiza\" as destination",
+      "time" : {
+        "start" : 1589362496823,
+        "stop" : 1589362498060,
+        "duration" : 1237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters dates for booking",
+      "time" : {
+        "start" : 1589362498061,
+        "stop" : 1589362498315,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362498316,
+        "stop" : 1589362498646,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362498646,
+        "stop" : 1589362498873,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362498873,
+        "stop" : 1589362499094,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362499094,
+        "stop" : 1589362499314,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"5\" adults and \"7\" kids",
+      "time" : {
+        "start" : 1589362499314,
+        "stop" : 1589362499538,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user clicks Search",
+      "time" : {
+        "start" : 1589362499539,
+        "stop" : 1589362500273,
+        "duration" : 734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then fast_booking is filled correctly",
+      "time" : {
+        "start" : 1589362500273,
+        "stop" : 1589362500324,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo FastBooking"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "adult_1",
+    "value" : "5"
+  }, {
+    "name" : "adult_2",
+    "value" : "5"
+  }, {
+    "name" : "adult_3",
+    "value" : "5"
+  }, {
+    "name" : "adult_4",
+    "value" : "5"
+  }, {
+    "name" : "adult_5",
+    "value" : "5"
+  }, {
+    "name" : "kid_1",
+    "value" : "7"
+  }, {
+    "name" : "kid_2",
+    "value" : "7"
+  }, {
+    "name" : "kid_3",
+    "value" : "7"
+  }, {
+    "name" : "kid_4",
+    "value" : "7"
+  }, {
+    "name" : "kid_5",
+    "value" : "7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "3c361014a748c225",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3c361014a748c225",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360427112,
+          "stop" : 1589360434521,
+          "duration" : 7409
+        }
+      }, {
+        "uid" : "1b8a18b534a89e6f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1b8a18b534a89e6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360154962,
+          "stop" : 1589360162942,
+          "duration" : 7980
+        }
+      }, {
+        "uid" : "537d9fa1c7874130",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/537d9fa1c7874130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359742190,
+          "stop" : 1589359750055,
+          "duration" : 7865
+        }
+      }, {
+        "uid" : "b8a24080d61d1e08",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b8a24080d61d1e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359399027,
+          "stop" : 1589359406591,
+          "duration" : 7564
+        }
+      }, {
+        "uid" : "f646707897b1cdcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358562879,
+          "stop" : 1589358570433,
+          "duration" : 7554
+        }
+      }, {
+        "uid" : "48712e6cb9ca054f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357772275,
+          "stop" : 1589357781348,
+          "duration" : 9073
+        }
+      }, {
+        "uid" : "f5744b48034ed39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357516759,
+          "stop" : 1589357523820,
+          "duration" : 7061
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "7c6ed1aab4172afc.json",
+  "parameterValues" : [ "5", "5", "5", "5", "5", "7", "7", "7", "7", "7" ]
+}

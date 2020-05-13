@@ -1,0 +1,202 @@
+{
+  "uid" : "d9eadc4179348580",
+  "name" : "Chrome successful tom login -- @1.1 ",
+  "historyId" : "07005e336a7487cbb7ca6ea1cb4fe19e",
+  "time" : {
+    "start" : 1589362589439,
+    "stop" : 1589362598373,
+    "duration" : 8934
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362590635,
+        "stop" : 1589362591914,
+        "duration" : 1279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enter ok_email and ok_passws",
+      "time" : {
+        "start" : 1589362591914,
+        "stop" : 1589362596609,
+        "duration" : 4695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0afc20774a975a0",
+        "name" : "request",
+        "source" : "b0afc20774a975a0.attach",
+        "type" : "text/plain",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And the user click Entrar",
+      "time" : {
+        "start" : 1589362596610,
+        "stop" : 1589362596715,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the user its logged",
+      "time" : {
+        "start" : 1589362596715,
+        "stop" : 1589362598294,
+        "duration" : 1579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Email",
+    "value" : "ok_email"
+  }, {
+    "name" : "Password",
+    "value" : "ok_passws"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "c1d0aba5c62d8c51",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c1d0aba5c62d8c51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360514963,
+          "stop" : 1589360523898,
+          "duration" : 8935
+        }
+      }, {
+        "uid" : "4bc8b79eee3bb45f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/4bc8b79eee3bb45f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360238300,
+          "stop" : 1589360250268,
+          "duration" : 11968
+        }
+      }, {
+        "uid" : "3d4f9375df62bc8f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3d4f9375df62bc8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359830693,
+          "stop" : 1589359840885,
+          "duration" : 10192
+        }
+      }, {
+        "uid" : "a229938247fd8292",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a229938247fd8292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359492388,
+          "stop" : 1589359502354,
+          "duration" : 9966
+        }
+      }, {
+        "uid" : "c329adae9cdfcdde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358665065,
+          "stop" : 1589358677879,
+          "duration" : 12814
+        }
+      }, {
+        "uid" : "322799559cd4ceb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357859339,
+          "stop" : 1589357871076,
+          "duration" : 11737
+        }
+      }, {
+        "uid" : "6a3b84536b7103ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357605668,
+          "stop" : 1589357614900,
+          "duration" : 9232
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "d9eadc4179348580.json",
+  "parameterValues" : [ "ok_email", "ok_passws" ]
+}

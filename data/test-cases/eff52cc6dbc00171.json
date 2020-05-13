@@ -1,0 +1,229 @@
+{
+  "uid" : "eff52cc6dbc00171",
+  "name" : "Chrome Successfully Search By Many People with 1 room -- @1.5 ",
+  "historyId" : "d86aa976663f3d7add3e9726fb669e5e",
+  "time" : {
+    "start" : 1589362560238,
+    "stop" : 1589362566027,
+    "duration" : 5789
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362561485,
+        "stop" : 1589362562773,
+        "duration" : 1288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enters \"Lanzarote\" as destination",
+      "time" : {
+        "start" : 1589362562773,
+        "stop" : 1589362564007,
+        "duration" : 1234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters dates for booking",
+      "time" : {
+        "start" : 1589362564008,
+        "stop" : 1589362564331,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user enters \"0\" adults and \"1\" kids",
+      "time" : {
+        "start" : 1589362564331,
+        "stop" : 1589362564931,
+        "duration" : 600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the user clicks Search",
+      "time" : {
+        "start" : 1589362564931,
+        "stop" : 1589362565767,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then fast_booking is filled correctly",
+      "time" : {
+        "start" : 1589362565767,
+        "stop" : 1589362565951,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo FastBooking"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "adult_1",
+    "value" : "0"
+  }, {
+    "name" : "destination",
+    "value" : "Lanzarote"
+  }, {
+    "name" : "kids_1",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "72ef559ee8efd3af",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/72ef559ee8efd3af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360487960,
+          "stop" : 1589360494110,
+          "duration" : 6150
+        }
+      }, {
+        "uid" : "2437e8c7732a2ca8",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2437e8c7732a2ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360209498,
+          "stop" : 1589360216258,
+          "duration" : 6760
+        }
+      }, {
+        "uid" : "3b3b4051b57f5db",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3b3b4051b57f5db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359802186,
+          "stop" : 1589359808423,
+          "duration" : 6237
+        }
+      }, {
+        "uid" : "34d0fd2513f2507",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/34d0fd2513f2507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359458346,
+          "stop" : 1589359467021,
+          "duration" : 8675
+        }
+      }, {
+        "uid" : "c28c1e367458a917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358634335,
+          "stop" : 1589358640943,
+          "duration" : 6608
+        }
+      }, {
+        "uid" : "1d195dea28235e61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357831499,
+          "stop" : 1589357838395,
+          "duration" : 6896
+        }
+      }, {
+        "uid" : "b24699cbf6fab680",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357576365,
+          "stop" : 1589357582016,
+          "duration" : 5651
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "eff52cc6dbc00171.json",
+  "parameterValues" : [ "0", "Lanzarote", "1" ]
+}

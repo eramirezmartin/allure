@@ -1,0 +1,202 @@
+{
+  "uid" : "4968256b02cd358e",
+  "name" : "Chrome unsuccessful tom login -- @1.1 ",
+  "historyId" : "7d72acacf7002476d2d2a3e6c3d5897f",
+  "time" : {
+    "start" : 1589362598374,
+    "stop" : 1589362606617,
+    "duration" : 8243
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362599581,
+        "stop" : 1589362600777,
+        "duration" : 1196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user enter QA_WRONG and QA_WRONG",
+      "time" : {
+        "start" : 1589362600777,
+        "stop" : 1589362605903,
+        "duration" : 5126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "425aa47ff18ef66b",
+        "name" : "request",
+        "source" : "425aa47ff18ef66b.attach",
+        "type" : "text/plain",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And the user click Entrar",
+      "time" : {
+        "start" : 1589362605903,
+        "stop" : 1589362606007,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the error message on myBarcelo its returned",
+      "time" : {
+        "start" : 1589362606008,
+        "stop" : 1589362606541,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Email",
+    "value" : "QA_WRONG"
+  }, {
+    "name" : "Password",
+    "value" : "QA_WRONG"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "9f7f17e2d6224c8d",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/9f7f17e2d6224c8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360523899,
+          "stop" : 1589360533588,
+          "duration" : 9689
+        }
+      }, {
+        "uid" : "5ed4b26894e71a59",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5ed4b26894e71a59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589360250269,
+          "stop" : 1589360258203,
+          "duration" : 7934
+        }
+      }, {
+        "uid" : "f00a55344120f62c",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f00a55344120f62c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359840886,
+          "stop" : 1589359850929,
+          "duration" : 10043
+        }
+      }, {
+        "uid" : "2b42860a73a7fc22",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/2b42860a73a7fc22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359502355,
+          "stop" : 1589359511128,
+          "duration" : 8773
+        }
+      }, {
+        "uid" : "a33dca68625bbe24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589358677880,
+          "stop" : 1589358686184,
+          "duration" : 8304
+        }
+      }, {
+        "uid" : "4d0cd7af52b830a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357871077,
+          "stop" : 1589357878309,
+          "duration" : 7232
+        }
+      }, {
+        "uid" : "38aea0e1a9409f46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589357614901,
+          "stop" : 1589357622273,
+          "duration" : 7372
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "4968256b02cd358e.json",
+  "parameterValues" : [ "QA_WRONG", "QA_WRONG" ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Fail: destination wasn't Málaga\n",
+      "children" : [ {
+        "name" : "Chrome Successfully Search by Destination",
+        "uid" : "279e93f47ab2f95b",
+        "parentUid" : "5b1a5b6b2e6210869be1bdbbb47112db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589362606618,
+          "stop" : 1589362615626,
+          "duration" : 9008
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b1a5b6b2e6210869be1bdbbb47112db"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

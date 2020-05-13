@@ -1,0 +1,197 @@
+{
+  "uid" : "279e93f47ab2f95b",
+  "name" : "Chrome Successfully Search by Destination",
+  "historyId" : "c7160e75d1d55dabb9ff1f306c1fed28",
+  "time" : {
+    "start" : 1589362606618,
+    "stop" : 1589362615626,
+    "duration" : 9008
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Fail: destination wasn't Málaga\n",
+  "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/mega_menu_hotels.py\", line 20, in step_impl\n    fast_booking_page.fast_booking_check_destination()\n  File \"/Users/patterson/www/BarceloBDD/pages/fast_booking_page.py\", line 150, in fast_booking_check_destination\n    assert False, f\"Fail: destination wasn't {self.context.destination}\"\n",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Fail: destination wasn't Málaga\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/mega_menu_hotels.py\", line 20, in step_impl\n    fast_booking_page.fast_booking_check_destination()\n  File \"/Users/patterson/www/BarceloBDD/pages/fast_booking_page.py\", line 150, in fast_booking_check_destination\n    assert False, f\"Fail: destination wasn't {self.context.destination}\"\n",
+    "steps" : [ {
+      "name" : "Given the Barcelo landing page is loaded",
+      "time" : {
+        "start" : 1589362607858,
+        "stop" : 1589362609233,
+        "duration" : 1375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When the user wants Hotels in \"Málaga\"",
+      "time" : {
+        "start" : 1589362609233,
+        "stop" : 1589362610004,
+        "duration" : 771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then the user goes to \"Málaga\" page",
+      "time" : {
+        "start" : 1589362610005,
+        "stop" : 1589362613073,
+        "duration" : 3068
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Fail: destination wasn't Málaga\n",
+      "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/mega_menu_hotels.py\", line 20, in step_impl\n    fast_booking_page.fast_booking_check_destination()\n  File \"/Users/patterson/www/BarceloBDD/pages/fast_booking_page.py\", line 150, in fast_booking_check_destination\n    assert False, f\"Fail: destination wasn't {self.context.destination}\"\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ed31d0525a98c72",
+        "name" : "failed.png",
+        "source" : "9ed31d0525a98c72.attach",
+        "type" : "image/png",
+        "size" : 5633364
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "chrome"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Barcelo Mega Menu Hotels"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "ee43dd30d48ef5c8",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ee43dd30d48ef5c8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Fail: destination wasn't Málaga\n",
+        "time" : {
+          "start" : 1589360533589,
+          "stop" : 1589360542276,
+          "duration" : 8687
+        }
+      }, {
+        "uid" : "6c1b4a30928f6b2a",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6c1b4a30928f6b2a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Fail: destination wasn't \n",
+        "time" : {
+          "start" : 1589360258205,
+          "stop" : 1589360266717,
+          "duration" : 8512
+        }
+      }, {
+        "uid" : "59078c8bfb158af6",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/59078c8bfb158af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589359850931,
+          "stop" : 1589359861275,
+          "duration" : 10344
+        }
+      }, {
+        "uid" : "e63f819fd3023a5",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e63f819fd3023a5",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1589359511130,
+          "stop" : 1589359515656,
+          "duration" : 4526
+        }
+      }, {
+        "uid" : "bd41f13f953ce8cb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1589358686186,
+          "stop" : 1589358692343,
+          "duration" : 6157
+        }
+      }, {
+        "uid" : "29ecc0ec1b30f20d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1589357878311,
+          "stop" : 1589357884273,
+          "duration" : 5962
+        }
+      }, {
+        "uid" : "1b4ad03a4129a519",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1589357622275,
+          "stop" : 1589357628406,
+          "duration" : 6131
+        }
+      } ]
+    },
+    "tags" : [ "chrome", "regression" ]
+  },
+  "source" : "279e93f47ab2f95b.json",
+  "parameterValues" : [ ]
+}
